@@ -10,11 +10,11 @@ Also:
   -- ASSIGNING a VALUE to a NAME (VARIABLE).
 
 Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
-         their colleagues and Joseph Krisciunas yeeeet asdassddcasdd .
+         their colleagues and Joseph Krisciunas.
 """
 ###############################################################################
 #
-# TODO: 1.
+# Done
 #   Yes, that means for YOU to DO things per the following instructions:
 #
 #   On Line 13 above, replace  PUT_YOUR_OWN_NAME_HERE  with your OWN name.
@@ -29,7 +29,7 @@ import rosegraphics as rg
 
 ###############################################################################
 #
-# TODO: 2.
+# Done
 #   Allow this module to use the  rosegraphics.py  module by marking the
 #     src
 #   folder in this project as a "Sources Root", as follows:
@@ -49,7 +49,7 @@ import rosegraphics as rg
 
 ###############################################################################
 #
-# TODO: 3.
+# Done
 #   Run this module.  A window will pop up and Turtles will move around.
 #   After the Turtles stop moving, *click anywhere in the window to close it*.
 #
@@ -89,7 +89,8 @@ boris = rg.SimpleTurtle()
 boris.forward(100)
 boris.left(90)
 boris.forward(200)
-
+boris.backward(150)
+boris.right(75)
 # -----------------------------------------------------------------------------
 # Construct a second SimpleTurtle,
 # set its  pen  and  speed  INSTANCE VARIABLES, and ask it to do things.
@@ -101,11 +102,18 @@ natasha.speed = 10  # Faster
 natasha.backward(50)
 natasha.right(90)
 natasha.forward(50)
+natasha.left(50)
 
+ben = rg.SimpleTurtle()
+ben.pen = rg.Pen('green', 500)
+
+ben.forward(25)
+ben.right(90)
+ben.forward(50)
 
 ###############################################################################
 #
-# TODO: 4.
+# Done
 #   Add a few more line of your own code to make one of the
 #   existing SimpleTurtles move some more and/or have different
 #   characteristics.
@@ -119,7 +127,7 @@ natasha.forward(50)
 
 ###############################################################################
 #
-# TODO: 5.
+# Done
 #   The above code  CONSTRUCTS  two SimpleTurtle objects
 #   and gives those objects NAMES:
 #       boris    natasha
@@ -146,7 +154,7 @@ natasha.forward(50)
 
 ###############################################################################
 #
-# TODO: 6.
+# Done
 #   Run one more time to be sure that all is still OK.
 #   Ensure that no blue bars on the scrollbar-thing to the right remain.
 #
