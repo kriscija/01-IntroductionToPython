@@ -8,7 +8,7 @@ print(3607*34227)
 #   to the end of the line with the  #  mark.
 #
 #   We call files that have Python code in them MODULES.
-#   Line 1 of this module (look at it now) prints (displays) the STRING
+#   Line 1 of this module (lookdsdsd at it now) prints (displays) the STRING
 #      Hello, World
 #   on the Run window (to the right).
 #
